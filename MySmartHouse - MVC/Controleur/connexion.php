@@ -1,5 +1,5 @@
 <?php
-    // Controleur pour gérer le formulaire de connexion des utilisateurs
+    // Controleur pour gérer le formulaire de connexion des utilisateurs.
 
     if(isset($_GET['cible']) && $_GET['cible']=="verif") { // L'utilisateur vient de valider le formulaire de connexion
         if(!empty($_POST['identifiant']) && !empty($_POST['mdp'])){ // L'utilisateur a rempli tous les champs du formulaire
