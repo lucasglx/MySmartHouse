@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+ <html>
 
   <head>
 
@@ -28,9 +27,31 @@
         <div style="padding-left:16px">
 
         <img src= "logomysmarthousepetit.png" class="logoentreprise" alt="Logo entreprise"  />
-        <img src="tel.jpg" class="imgtel" alt="imgtel" />
-        <p><a href="Page connexion.html" target="_blank"><img src="logo.png" class="logoblanc" alt="logoblanc" /></a></p>
-
         
+            <fieldset>
+                <legend>Connexion</legend>
+                
+                <p>
+                    <label for="email">Adresse mail :
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="mail@exemple.com" autofocus required />
+                </p>
+                
+                <p>
+                    <label for="password">Mot de passe :
+                    </label>
+                    <input type="password" name="password" id="password" required />
+                </p>
+                
+                <p>
+                    <input type="submit" value="Se connecter" />
+                </p>
+                
+                <p>
+                    <a href="Creation%20profil.html">Première connexion ?</a>
+                </p>
+                
+            </fieldset>
+        </div>       
     </body>
 </html>
